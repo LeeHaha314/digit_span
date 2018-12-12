@@ -4,7 +4,7 @@ import sys
 import random
 from PyQt5 import QtCore, QtGui, QtWidgets
 
-interval = 500	#	set the interval value for the number display 
+interval = 1000	#	set the interval value for the number display 
 path_name = './log.txt'
 
 class MainWindow(QtWidgets.QMainWindow):
